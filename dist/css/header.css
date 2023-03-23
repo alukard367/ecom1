@@ -175,4 +175,11 @@ nav .mega .products .text-content h4 {
     color: var(--secondary-dark-color);
 }
 
+.view-all {
+    font-size: var(--font-small);
+    display: flex;
+    gap: 1em;
+    transition: var(--trans-color);
+}
+
 

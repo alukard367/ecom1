@@ -39,7 +39,16 @@
         background-color: var(--light-bg-color);
         box-shadow: rgb(0 0 0 / 20%) 0 30px 20px -30px;
         z-index: 100;
+
+        display: none;
     }
+    /* I Need to understand this kind of confusing */
+    .navigation-header li:hover .mega { 
+        display: block;
+    }
+    /* I Need to understand this kind of confusing */
+    
+    
 
     nav .mega .wrapper {
         display: flex;
