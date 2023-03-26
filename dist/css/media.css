@@ -91,4 +91,9 @@
     nav .mega .products .media {
         height: 400px;
     }
+
+   .mini-text {
+    font-size: var(--font-smaller);
+    color: var(--light-text-color);
+}
 }
