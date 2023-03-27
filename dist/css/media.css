@@ -95,5 +95,10 @@
    .mini-text {
     font-size: var(--font-smaller);
     color: var(--light-text-color);
-}
+    }
+    
+    .header-main .right {
+        max-width: 600px;
+        margin-left: auto;
+    }
 }
