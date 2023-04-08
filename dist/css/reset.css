@@ -1,5 +1,6 @@
 :root {
     --primary-color: #ff6b6b;
+    /* --primary-color: blueviolet; I found this color very beautiful*/ 
     --secondary-color: #794afa;
     --secondary-dark-color: #453c5c;
 
@@ -154,7 +155,7 @@ h4 {
 
 .icon-small {
     font-size: 1.25em;
-    margin: auto;
+    margin-left: auto;
 }
 
 .icon-large {

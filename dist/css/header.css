@@ -1,4 +1,4 @@
-header li > a {
+:where(.off-canvas, header) li > a {
     display: flex;
     position: relative;
     line-height: inherit;
