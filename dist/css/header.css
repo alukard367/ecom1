@@ -29,11 +29,11 @@
     display: none;
 }
 
-.header-top .right ul ul li a {
+:where(.header-top, .theTop-nav) .right ul ul li a {
     padding: 0.25em 1em;
 }
 
-.header-top .right ul ul li.current a {
+:where(.header-top, .theTop-nav) .right ul ul li.current a {
     background-color: var(--border-color);
 }
 

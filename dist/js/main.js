@@ -13,9 +13,21 @@ function copyMenu() {
     navPlace.innerHTML = mainNav.innerHTML
 
     //copy .header-top .wrapper to .theTop-nav
-    let topNav = document.querySelector(".header-top wrapper")
+    let topNav = document.querySelector(".header-top .wrapper")
     let topPlace = document.querySelector(".off-canvas .theTop-nav")
     topPlace.innerHTML = topNav.innerHTML
 }
 
 copyMenu()
+
+// Show Submenu On Mobile
+
+const subMenu = document.querySelectorAll(".has-child .icon-small")
+subMenu.forEach((menu) => menu.addEventListener("click", toggle))
+
+function toggle(e) {
+    e.preventDefault()
+    subMenu.forEach((item) => item != this ? item.closest(".has-child").classList.remove("expand") : null)
+    if(this.closest(".has-child").classList != "expand")
+    this.closest(".has-child").classList.toggle("expand")
+}
